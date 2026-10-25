@@ -1,0 +1,195 @@
+{
+  "phase": "verdict",
+  "disposition": "ship",
+  "scope": "Ship earned here covers the scored fixes, not the whole surface.",
+  "verdict": [
+    {
+      "id": "F1",
+      "status": "resolved",
+      "evidence": "Updated qor-stock-public-current.jpg visibly shows quantity1, 1 x 2000 = 2000.00 KZT, delivery800.00 KZT and total2800.00 KZT. Updated qor-stock-shortage.jpg shows quantity2 and shortage reason without a total or arithmetic. module.js receipt now returns saved quantity/subtotal/fee; app.js renders arithmetic only when total is non-null."
+    },
+    {
+      "id": "F2",
+      "status": "resolved",
+      "evidence": "Updated operator list and historical edit capture retain original SYNTHETIC настольная лампа / Астана labels while the new receipt uses SYNTHETIC новое имя товара / новое имя зоны. app.js:208-209 derives list names from snapshot; :365-370 derives selected read-only reference labels from snapshot. Historical total3800 remains visible."
+    },
+    {
+      "id": "F3",
+      "status": "resolved",
+      "evidence": "Saved DOM proof records activeElement H1 with text Предварительная оценка after submission; app.js:650-676 creates tabIndex=-1 result heading and focuses it after appending the receipt, shared by estimate/operator paths. The parent additionally reports operator H1 focus confirmation."
+    }
+  ],
+  "remaining": "clear",
+  "regressions": [],
+  "material_fixes": [],
+  "evidence_scope": {
+    "recaptures_opened": [
+      "outputs/products/qor-stock-public-current.jpg",
+      "outputs/products/qor-stock-shortage.jpg",
+      "outputs/products/qor-stock-history-snapshot.jpg",
+      "outputs/products/qor-stock-desktop.jpg",
+      "work/products/qor-stock/.impeccable/review/desktop.png",
+      "work/products/qor-stock/.impeccable/review/mobile.png"
+    ],
+    "proofs_read": [
+      "work/program/qor-stock-review-fixes-proof.json",
+      "work/program/qor-stock-mobile-proof.json"
+    ],
+    "code_sampled": [
+      "module.js publicReceipt",
+      "public/app.js displayValue/reference labels/result rendering and focus"
+    ],
+    "tests": "Saved test output remains14/14 passing; reviewer did not rerun tests.",
+    "limits": "Scored F1-F3 only; no new defect hunt. Mobile capture re-opened and remains valid at390 CSS px/DPR2. Mobile proof contains a pre-fix operator result and is not used as evidence of current quantity/focus behavior; current F1/F3 evidence comes from the updated desktop receipt, DOM proof and shared code."
+  },
+  "initial_review": {
+    "disposition": "fix",
+    "missing_inputs": "No separate THESIS/OWN-WORLD/STORY/FIRST VIEWPORT/FORM document or QUALITY BAR card exists. Parent confirms inherited Startup Lab Operate system, explicit proceed instruction, and concept-seed invocation seed:15b770db3f03a38a. No comp-led or new-world claim is assessed.",
+    "persistence": {
+      "status": "pass",
+      "specifics": [
+        "PRODUCT.md exists and specifies user, bounded workflow, acceptance and inherited visual system.",
+        "No comp-led state/spec/diff is required for this inherited-family product; no comp fidelity or approved-composition claim is made.",
+        "Reviewed saved 14/14 test output, domain tests and implementation. Tests exercise fresh exact totals, stale item/delivery boundaries, shortages/minimum, immutable snapshots, source archive, restart/restore and protected HTTP routes. Tests were not rerun by this reviewer."
+      ]
+    },
+    "fidelity": [
+      {
+        "element": "TYPE",
+        "state": "match",
+        "evidence": "Readable inherited platform sans, strong heading scale, tabular table numerals; system font is family continuity under PRODUCT.md, not a newly claimed own-world display voice."
+      },
+      {
+        "element": "MATERIAL",
+        "state": "match",
+        "evidence": "Flat table/form/data surfaces fit Operate; no fake physical material, raster obligation or illustration claim."
+      },
+      {
+        "element": "GROUND",
+        "state": "match",
+        "evidence": "Cool light ground #edf3f8, navy #183e60 and restrained teal continue the specified light-table/blue-accent family. No exact prior-world color authority or comp was supplied for a tighter sample comparison."
+      },
+      {
+        "element": "Header/navigation and operator list",
+        "state": "match",
+        "evidence": "Blue top bar, section switching and labelled table are present in supplied desktop capture."
+      },
+      {
+        "element": "Public entry form",
+        "state": "match",
+        "evidence": "Desktop 1280x720 and native DPR2 780x1688 capture at parent-verified CSS width390 show quantity, zone and action without clipping; labels are associated in code."
+      },
+      {
+        "element": "Fresh/operator outcomes",
+        "state": "match",
+        "evidence": "2800 current and 3800 historical estimate captures show totals; shortage/stale delivery captures show operator outcome with no total. Code branches match these states."
+      },
+      {
+        "element": "Verifiable public receipt",
+        "state": "contradicted",
+        "evidence": "Receipt omits requested quantity and estimate arithmetic, so total cannot be checked from the receipt alone. F1."
+      },
+      {
+        "element": "Historical request identity",
+        "state": "contradicted",
+        "evidence": "Underlying snapshot is preserved, but table/reference controls derive names from current source rows, so source renames relabel historical requests. F2."
+      },
+      {
+        "element": "Result transition keyboard/screen-reader state",
+        "state": "contradicted",
+        "evidence": "Success replaces focused form without moving focus or announcing receipt; screen container is not live. F3."
+      },
+      {
+        "element": "Synthetic data and commercial scope",
+        "state": "match",
+        "evidence": "SYNTHETIC labels are visible. Copy explicitly limits estimate/reserve/order/delivery claims; no payment, AI, integration or live-chat capability is presented."
+      }
+    ],
+    "ceiling": {
+      "status": "bounded",
+      "specifics": "No QUALITY BAR card exists, so no comparative ceiling is claimed. Native Operate devices left underused are the receipt arithmetic readout and historical snapshot labels; these are addressed by F1 and F2. No new decorative world or motion is required for this scope."
+    },
+    "material_fixes": [
+      {
+        "id": "F1",
+        "check": "Contract: verifiable preliminary estimate; copy/states",
+        "files": [
+          {
+            "path": "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/work/products/qor-stock/module.js",
+            "line": 59
+          },
+          {
+            "path": "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/work/products/qor-stock/public/app.js",
+            "line": 645
+          }
+        ],
+        "problem": "Public receipt omits row.quantity; rendered result loses the requested quantity and has no estimate arithmetic.",
+        "fix": "Return the saved requested quantity and render it for both outcomes. For estimate only, show immutable unit price x quantity, subtotal, delivery fee and total from the receipt snapshot/result. Preserve null/absent totals and breakdown amounts for operator outcomes.",
+        "verification": "Capture estimate and operator outcomes with selected quantity visible; estimate arithmetic must equal saved total, and operator outcome must still omit total."
+      },
+      {
+        "id": "F2",
+        "check": "Contract: immutable source snapshot and truthful history",
+        "files": [
+          {
+            "path": "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/work/products/qor-stock/public/app.js",
+            "line": 205
+          },
+          {
+            "path": "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/work/products/qor-stock/public/app.js",
+            "line": 346
+          }
+        ],
+        "problem": "Saved check item/zone labels resolve through current state.data references in displayValue and read-only reference options, so renaming sources changes displayed historical identity.",
+        "fix": "For saved checks, derive item/zone labels from row.snapshot in both table and read-only controls; retain ID references and immutable server validation. Keep the original snapshot/result after source edits.",
+        "verification": "Rename product and zone after a saved request and capture its list row/read-only form retaining the original names; a new request should use current names."
+      },
+      {
+        "id": "F3",
+        "check": "Craft floor: working states and keyboard focus",
+        "files": [
+          {
+            "path": "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/work/products/qor-stock/public/app.js",
+            "line": 641
+          }
+        ],
+        "problem": "After public submission, screen.replaceChildren removes the focused submit/form; the new result heading is not focused and receipt is not announced by a live region.",
+        "fix": "Make the new result heading programmatically focusable and focus it after rendering, or supply an equivalent accessible receipt announcement/focus transition. Preserve normal subsequent Tab order.",
+        "verification": "Submit via keyboard and verify activeElement is the result heading (or equivalent accessible result target), then Tab reaches receipt actions in reading order."
+      }
+    ],
+    "keep": "Keep source/result immutability, exact KZT arithmetic, total-free operator outcomes, explicit non-reservation/non-order language, synthetic evidence and the restrained inherited Operate surfaces.",
+    "evidence_scope": {
+      "captures": [
+        "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/work/products/qor-stock/.impeccable/review/desktop.png",
+        "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/work/products/qor-stock/.impeccable/review/mobile.png",
+        "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/outputs/products/qor-stock-desktop.jpg",
+        "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/outputs/products/qor-stock-public-current.jpg",
+        "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/outputs/products/qor-stock-public-estimate.jpg",
+        "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/outputs/products/qor-stock-shortage.jpg",
+        "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/outputs/products/qor-stock-expired-delivery.jpg",
+        "/Users/wpalish/Documents/Codex/2026-10-24/https-www-producthunt-com-https-www/outputs/products/qor-stock-history-snapshot.jpg"
+      ],
+      "validity": "All supplied captures were opened and valid for their named state; desktop1280x720, mobile780x1688 at parent-verified390 CSS width/DPR2.",
+      "limitations": "Mobile public entry layout only; no reviewer-run mobile interaction or operator mobile pass. Operator lower processing controls and expanded raw snapshot are code-reviewed but not visible in supplied scrolled capture. No external security audit, live production deployment or integration verification.",
+      "contrast": "CSS color pairs calculated: body12.41:1, secondary5.71:1, primary button6.88:1, header11.07:1, error7.37:1. Hover/disabled/error/focus/selection/caret/scrollbar rules exist; their interaction appearance was not recaptured by this reviewer.",
+      "detector": "Parent detector report is []; reviewer did not rerun detector.",
+      "reviewed_files": [
+        "PRODUCT.md",
+        "AGENTS.md",
+        "package.json",
+        "module.js",
+        "public/app.js",
+        "public/styles.css",
+        "public/index.html",
+        "tests/stock.test.js",
+        "tests/product.test.js",
+        "docs/test-output.txt"
+      ],
+      "sampled_files": [
+        "core/server.js relevant public/protected route references"
+      ],
+      "unread": "core/store.js, full core/rules.js/core/server.js and unrelated offer/buyer/reference-audit files; review sampled primary artifact files as contracted."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-25",
+  "product": "qor-stock",
+  "reference": 2,
+  "scope": "Original bounded stock/delivery freshness workflow,not Tidio parity",
+  "tests": {
+    "tests": 14,
+    "passed": 14,
+    "failed": 0,
+    "runtime": "v24.19.0",
+    "log": "docs/test-output.txt"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "data": "synthetic only,localhost8842",
+    "fresh_estimate": "2 x1500 +800 =3800 KZT",
+    "shortage": "4 requested against3 ->operator,no total",
+    "expired_delivery": "operator,no total",
+    "price_edit": "current2000/stock1 yields2800 for1;old snapshot3800 unchanged",
+    "history_rename": "previous5 requests keep old names/values despite current source renames",
+    "manual_note": "status reviewed/note saved,does not produce an approved quote",
+    "public_quantity_breakdown_focus": "quantity/estimate arithmetic shown;result H1 receives focus;operator result has no total",
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "document_scroll_width": 390,
+      "capture": "docs/mobile.png",
+      "functional": "keyboard submit ->operator,no total;mouse click CDP timed out before submission,then current form state confirmed before keyboard submit"
+    },
+    "final_requests": 7,
+    "final_revision": 14,
+    "final_audit_events": 14,
+    "screens": [
+      "docs/desktop.jpg",
+      "docs/public-form.jpg",
+      "docs/public-current.jpg",
+      "docs/shortage.jpg",
+      "docs/history-snapshot.jpg"
+    ]
+  },
+  "correctionBrowser": {
+    "result": "visible_label_and_no_results_recovery_passed",
+    "id_search": "003c5391-ada6-4844-a1b9-29bd30658259",
+    "name_search": "snapshot labels searchable",
+    "clear_filter_restores_list": true
+  },
+  "persistence": {
+    "real_file_restart_and_empty_restore": "tests/stock.test.js",
+    "owned_runtime_restart": {
+      "before": "work/program/qor-stock-runtime-before.json",
+      "after": "work/program/qor-stock-runtime-after.json",
+      "entire_workspace_audit_unchanged": true,
+      "requests_at_restart": 5,
+      "revision": 10,
+      "audit": 10,
+      "current_pid": 3924
+    },
+    "previous_20": "not restarted or modified by this product;18batch snapshots verified separately"
+  },
+  "public_access": "anonymous cannot read state/audit/backup;public input does not control arithmetic/status/note;archived/unknown references rejected",
+  "limits": [
+    "Manual stock,not reserved or decremented;concurrent buyers may see same stock",
+    "KZT only,no AI/chat/payment/order/integrations",
+    "No protected buyer dialogue/automatic reply;code handed to staff separately",
+    "No external security/load/client acceptance audit",
+    "JSON backup is unsigned;validation is not authenticity proof"
+  ],
+  "review": {
+    "finding_count": 3,
+    "findings": [
+      "Show quantity and immutable estimate arithmetic",
+      "Use snapshot names for historical labels",
+      "Focus result heading"
+    ],
+    "verdict": "ship",
+    "scope": "Final verdict scored3 fixes resolved,not whole-surface/external security approval",
+    "record": "docs/finish-review.json"
+  }
+}

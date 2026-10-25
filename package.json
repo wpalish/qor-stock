@@ -1,0 +1,14 @@
+{
+  "name": "qor-stock",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Проверка наличия и доставки по свежим сведениям с передачей спорного запроса оператору.",
+  "engines": {
+    "node": ">=24.15 <25"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "test": "node --test --test-reporter=tap tests/*.test.js"
+  }
+}

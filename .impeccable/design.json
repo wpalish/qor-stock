@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T09:06:16.700562Z",
+  "title": "Design System: QorStock",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Cool Workspace",
+        "tonalRamp": [
+          "oklch(15.000% 0.00929 242.84)",
+          "oklch(26.429% 0.00929 242.84)",
+          "oklch(37.857% 0.00929 242.84)",
+          "oklch(49.286% 0.00929 242.84)",
+          "oklch(60.714% 0.00929 242.84)",
+          "oklch(72.143% 0.00929 242.84)",
+          "oklch(83.571% 0.00929 242.84)",
+          "oklch(95.000% 0.00929 242.84)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Ink Navy",
+        "tonalRamp": [
+          "oklch(15.000% 0.05131 249.96)",
+          "oklch(26.429% 0.05131 249.96)",
+          "oklch(37.857% 0.05131 249.96)",
+          "oklch(49.286% 0.05131 249.96)",
+          "oklch(60.714% 0.05131 249.96)",
+          "oklch(72.143% 0.05131 249.96)",
+          "oklch(83.571% 0.05131 249.96)",
+          "oklch(95.000% 0.05131 249.96)"
+        ]
+      },
+      "navy": {
+        "role": "primary",
+        "displayName": "Operate Blue",
+        "tonalRamp": [
+          "oklch(15.000% 0.07333 248.44)",
+          "oklch(26.429% 0.07333 248.44)",
+          "oklch(37.857% 0.07333 248.44)",
+          "oklch(49.286% 0.07333 248.44)",
+          "oklch(60.714% 0.07333 248.44)",
+          "oklch(72.143% 0.07333 248.44)",
+          "oklch(83.571% 0.07333 248.44)",
+          "oklch(95.000% 0.07333 248.44)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Action Teal",
+        "tonalRamp": [
+          "oklch(15.000% 0.08204 173.03)",
+          "oklch(26.429% 0.08204 173.03)",
+          "oklch(37.857% 0.08204 173.03)",
+          "oklch(49.286% 0.08204 173.03)",
+          "oklch(60.714% 0.08204 173.03)",
+          "oklch(72.143% 0.08204 173.03)",
+          "oklch(83.571% 0.08204 173.03)",
+          "oklch(95.000% 0.08204 173.03)"
+        ]
+      },
+      "teal-hover": {
+        "role": "primary",
+        "displayName": "Action Teal Hover",
+        "tonalRamp": [
+          "oklch(15.000% 0.07176 173.05)",
+          "oklch(26.429% 0.07176 173.05)",
+          "oklch(37.857% 0.07176 173.05)",
+          "oklch(49.286% 0.07176 173.05)",
+          "oklch(60.714% 0.07176 173.05)",
+          "oklch(72.143% 0.07176 173.05)",
+          "oklch(83.571% 0.07176 173.05)",
+          "oklch(95.000% 0.07176 173.05)"
+        ]
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "Pending Amber",
+        "tonalRamp": [
+          "oklch(15.000% 0.09818 77.06)",
+          "oklch(26.429% 0.09818 77.06)",
+          "oklch(37.857% 0.09818 77.06)",
+          "oklch(49.286% 0.09818 77.06)",
+          "oklch(60.714% 0.09818 77.06)",
+          "oklch(72.143% 0.09818 77.06)",
+          "oklch(83.571% 0.09818 77.06)",
+          "oklch(95.000% 0.09818 77.06)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Surface",
+        "tonalRamp": [
+          "oklch(15.000% 0.00000 0.00)",
+          "oklch(26.429% 0.00000 0.00)",
+          "oklch(37.857% 0.00000 0.00)",
+          "oklch(49.286% 0.00000 0.00)",
+          "oklch(60.714% 0.00000 0.00)",
+          "oklch(72.143% 0.00000 0.00)",
+          "oklch(83.571% 0.00000 0.00)",
+          "oklch(95.000% 0.00000 0.00)"
+        ]
+      },
+      "navigation-ground": {
+        "role": "neutral",
+        "displayName": "Navigation Mist",
+        "tonalRamp": [
+          "oklch(15.000% 0.01946 240.74)",
+          "oklch(26.429% 0.01946 240.74)",
+          "oklch(37.857% 0.01946 240.74)",
+          "oklch(49.286% 0.01946 240.74)",
+          "oklch(60.714% 0.01946 240.74)",
+          "oklch(72.143% 0.01946 240.74)",
+          "oklch(83.571% 0.01946 240.74)",
+          "oklch(95.000% 0.01946 240.74)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Panel Line",
+        "tonalRamp": [
+          "oklch(15.000% 0.02775 241.23)",
+          "oklch(26.429% 0.02775 241.23)",
+          "oklch(37.857% 0.02775 241.23)",
+          "oklch(49.286% 0.02775 241.23)",
+          "oklch(60.714% 0.02775 241.23)",
+          "oklch(72.143% 0.02775 241.23)",
+          "oklch(83.571% 0.02775 241.23)",
+          "oklch(95.000% 0.02775 241.23)"
+        ]
+      },
+      "field-line": {
+        "role": "neutral",
+        "displayName": "Field Line",
+        "tonalRamp": [
+          "oklch(15.000% 0.04565 242.07)",
+          "oklch(26.429% 0.04565 242.07)",
+          "oklch(37.857% 0.04565 242.07)",
+          "oklch(49.286% 0.04565 242.07)",
+          "oklch(60.714% 0.04565 242.07)",
+          "oklch(72.143% 0.04565 242.07)",
+          "oklch(83.571% 0.04565 242.07)",
+          "oklch(95.000% 0.04565 242.07)"
+        ]
+      },
+      "link": {
+        "role": "secondary",
+        "displayName": "Source Blue",
+        "tonalRamp": [
+          "oklch(15.000% 0.09803 249.12)",
+          "oklch(26.429% 0.09803 249.12)",
+          "oklch(37.857% 0.09803 249.12)",
+          "oklch(49.286% 0.09803 249.12)",
+          "oklch(60.714% 0.09803 249.12)",
+          "oklch(72.143% 0.09803 249.12)",
+          "oklch(83.571% 0.09803 249.12)",
+          "oklch(95.000% 0.09803 249.12)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "tonalRamp": [
+          "oklch(15.000% 0.05108 245.00)",
+          "oklch(26.429% 0.05108 245.00)",
+          "oklch(37.857% 0.05108 245.00)",
+          "oklch(49.286% 0.05108 245.00)",
+          "oklch(60.714% 0.05108 245.00)",
+          "oklch(72.143% 0.05108 245.00)",
+          "oklch(83.571% 0.05108 245.00)",
+          "oklch(95.000% 0.05108 245.00)"
+        ]
+      },
+      "error": {
+        "role": "secondary",
+        "displayName": "Error Red",
+        "tonalRamp": [
+          "oklch(15.000% 0.14583 27.85)",
+          "oklch(26.429% 0.14583 27.85)",
+          "oklch(37.857% 0.14583 27.85)",
+          "oklch(49.286% 0.14583 27.85)",
+          "oklch(60.714% 0.14583 27.85)",
+          "oklch(72.143% 0.14583 27.85)",
+          "oklch(83.571% 0.14583 27.85)",
+          "oklch(95.000% 0.14583 27.85)"
+        ]
+      },
+      "error-ground": {
+        "role": "neutral",
+        "displayName": "Error Wash",
+        "tonalRamp": [
+          "oklch(15.000% 0.01650 26.65)",
+          "oklch(26.429% 0.01650 26.65)",
+          "oklch(37.857% 0.01650 26.65)",
+          "oklch(49.286% 0.01650 26.65)",
+          "oklch(60.714% 0.01650 26.65)",
+          "oklch(72.143% 0.01650 26.65)",
+          "oklch(83.571% 0.01650 26.65)",
+          "oklch(95.000% 0.01650 26.65)"
+        ]
+      },
+      "selection-ground": {
+        "role": "neutral",
+        "displayName": "Selection Mint",
+        "tonalRamp": [
+          "oklch(15.000% 0.04409 174.61)",
+          "oklch(26.429% 0.04409 174.61)",
+          "oklch(37.857% 0.04409 174.61)",
+          "oklch(49.286% 0.04409 174.61)",
+          "oklch(60.714% 0.04409 174.61)",
+          "oklch(72.143% 0.04409 174.61)",
+          "oklch(83.571% 0.04409 174.61)",
+          "oklch(95.000% 0.04409 174.61)"
+        ]
+      },
+      "selection-foreground": {
+        "role": "neutral",
+        "displayName": "Selection Ink",
+        "tonalRamp": [
+          "oklch(15.000% 0.03602 177.75)",
+          "oklch(26.429% 0.03602 177.75)",
+          "oklch(37.857% 0.03602 177.75)",
+          "oklch(49.286% 0.03602 177.75)",
+          "oklch(60.714% 0.03602 177.75)",
+          "oklch(72.143% 0.03602 177.75)",
+          "oklch(83.571% 0.03602 177.75)",
+          "oklch(95.000% 0.03602 177.75)"
+        ]
+      },
+      "focus": {
+        "role": "secondary",
+        "displayName": "Focus Copper",
+        "tonalRamp": [
+          "oklch(15.000% 0.13748 55.87)",
+          "oklch(26.429% 0.13748 55.87)",
+          "oklch(37.857% 0.13748 55.87)",
+          "oklch(49.286% 0.13748 55.87)",
+          "oklch(60.714% 0.13748 55.87)",
+          "oklch(72.143% 0.13748 55.87)",
+          "oklch(83.571% 0.13748 55.87)",
+          "oklch(95.000% 0.13748 55.87)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Operational Headline",
+        "purpose": "Page and public result headings."
+      },
+      "title": {
+        "displayName": "Section Title",
+        "purpose": "Source-check and calculation/control sections."
+      },
+      "body": {
+        "displayName": "Platform Body",
+        "purpose": "System sans stack; line-height token describes paragraphs, while root font-size remains a browser default."
+      },
+      "label": {
+        "displayName": "Control Label",
+        "purpose": "Visible labels and button weight."
+      },
+      "brand": {
+        "displayName": "Text Brand",
+        "purpose": "Header brand link."
+      },
+      "muted": {
+        "displayName": "Supporting Copy",
+        "purpose": "Secondary explanatory copy, footer and table heading size."
+      },
+      "code": {
+        "displayName": "Snapshot Text",
+        "purpose": "Wrapped native preformatted details."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "stacked-layout",
+        "value": "700px"
+      },
+      {
+        "name": "narrow-table-and-search",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Teal submit/primary action, with shared brightness hover, focus and waiting treatment. The snippet font-size resolves the ordinary browser default; the application does not author a root font-size.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Проверить наличие и доставку</button>",
+      "css": ".ds-primary{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:1rem;display:inline-block;min-height:44px;padding:0.65rem 1rem;cursor:pointer;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;text-decoration:none;background:var(--teal,#126653);border-color:var(--teal,#126653);color:#fff;}.ds-primary:hover{background:#0b5343;filter:brightness(1.13);}.ds-primary:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}.ds-primary:disabled{cursor:wait;opacity:0.55;}@media(max-width:700px){.ds-primary{max-width:100%;}}"
+    },
+    {
+      "name": "Secondary Action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White outlined action used for refresh, return and record opening.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Открыть</button>",
+      "css": ".ds-secondary{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:1rem;display:inline-block;min-height:44px;padding:0.65rem 1rem;cursor:pointer;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;text-decoration:none;background:#fff;color:var(--navy,#183e60);}.ds-secondary:hover{filter:brightness(1.13);}.ds-secondary:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}.ds-secondary:disabled{cursor:wait;opacity:0.55;}@media(max-width:700px){.ds-secondary{max-width:100%;}}"
+    },
+    {
+      "name": "Labelled Quantity Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Explicit associated label and full-width integer quantity field.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-quantity\">Количество</label><input id=\"ds-quantity\" name=\"quantity\" type=\"number\" min=\"1\" max=\"100000\" step=\"1\" required value=\"1\"></div>",
+      "css": ".ds-field{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;}.ds-field label{display:block;font-weight:600;margin:0 0 0.35rem;}.ds-field input{font:inherit;width:100%;padding:0.7rem;border:1px solid #7894aa;border-radius:7px;background:#fff;color:inherit;caret-color:#174e7e;}.ds-field input:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}"
+    },
+    {
+      "name": "Section Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-current",
+      "description": "Pale-blue wrapping strip. Generated secondary buttons are white; the current page adds the structural border.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Разделы\"><button type=\"button\">Товары</button><button type=\"button\">Доставка</button><button type=\"button\" aria-current=\"page\">Запросы</button></nav>",
+      "css": ".ds-nav{display:flex;gap:0.5rem;padding:0.7rem max(1.25rem,calc((100% - 1160px)/2));background:#dce9f3;border-bottom:1px solid var(--line,#b9cbd9);}.ds-nav button{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:1rem;display:inline-block;min-height:44px;padding:0.65rem 1rem;cursor:pointer;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;text-decoration:none;background:#fff;color:var(--navy,#183e60);border-color:transparent;}.ds-nav [aria-current=\"page\"]{border-color:var(--line,#b9cbd9);}.ds-nav button:hover{filter:brightness(1.13);}.ds-nav button:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}@media(max-width:700px){.ds-nav{padding:0.6rem;flex-wrap:wrap;}.ds-nav button{flex:1;max-width:100%;}}@media(max-width:600px){.ds-nav button{flex:auto;}}"
+    },
+    {
+      "name": "Source Check Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat bordered working section; padding reduces at the 700px breakpoint. Disclosure uses the native details interaction.",
+      "html": "<section class=\"ds-panel\"><h2>Исходная проверка</h2><p>Номер запроса: SYNTHETIC-1</p><p>Предварительно: 2800.00 KZT</p><details><summary>Полный снимок цены, остатка и доставки</summary><pre>{\"currency\":\"KZT\"}</pre></details></section>",
+      "css": ".ds-panel{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;background:#fff;border:1px solid var(--line,#b9cbd9);border-radius:12px;padding:1.4rem;min-width:0;}.ds-panel h2{font-size:1.3rem;margin:2rem 0 0.75rem;}.ds-panel p{max-width:72ch;line-height:1.6;margin:0.5rem 0 1rem;}.ds-panel details{margin-top:1rem;}.ds-panel summary{cursor:pointer;min-height:44px;display:flex;align-items:center;}.ds-panel summary:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}.ds-panel pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:0.85rem;}@media(max-width:700px){.ds-panel{padding:1rem;}}"
+    },
+    {
+      "name": "Scrollable Request Table",
+      "kind": "custom",
+      "description": "First five configured request fields plus actions, with snapshot labels and tabular numerals. The wrapper remains keyboard-focusable when horizontal scrolling is needed.",
+      "html": "<div class=\"ds-table\"><p class=\"ds-table-hint\">На узком экране прокрутите таблицу вправо: там остальные столбцы и действия.</p><div class=\"ds-table-wrap\" tabindex=\"0\" aria-label=\"Таблица записей. Если столбцы не помещаются, прокрутите вправо.\"><table><thead><tr><th>Товар</th><th>Зона доставки</th><th>Количество</th><th>Обработка</th><th>Примечание сотрудника</th><th>Действия</th></tr></thead><tbody><tr><td>SYNTHETIC настольная лампа · Белая</td><td>SYNTHETIC Астана</td><td>1</td><td>Новый</td><td>—</td><td><button type=\"button\">Открыть</button></td></tr></tbody></table></div></div>",
+      "css": ".ds-table{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;}.ds-table-wrap{overflow:auto;margin-top:1rem;border:1px solid var(--line,#b9cbd9);border-radius:12px;background:#fff;scrollbar-color:#7894aa #edf3f8;scrollbar-width:thin;}.ds-table-wrap:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}.ds-table table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;}.ds-table th,.ds-table td{text-align:left;padding:0.9rem;vertical-align:top;border-bottom:1px solid var(--line,#b9cbd9);overflow-wrap:anywhere;max-width:28ch;}.ds-table th{background:#dce9f3;font-size:0.9rem;}.ds-table tr:last-child td{border-bottom:0;}.ds-table button{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:1rem;display:inline-block;min-height:44px;padding:0.65rem 1rem;cursor:pointer;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;text-decoration:none;background:#fff;color:var(--navy,#183e60);white-space:nowrap;}.ds-table button:hover{filter:brightness(1.13);}.ds-table button:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}.ds-table-hint{display:none;}@media(max-width:600px){.ds-table th,.ds-table td{min-width:140px;}.ds-table table{font-size:0.9rem;}.ds-table-hint{display:block;color:#46627a;font-size:0.85rem;line-height:1.5;margin:1rem 0 0.5rem;}}"
+    },
+    {
+      "name": "Shared Error Notice",
+      "kind": "custom",
+      "refersTo": "error-notice",
+      "description": "Actual nonempty shell-notice cascade: red error text on the later white bordered notice surface, with polite status semantics.",
+      "html": "<div class=\"ds-error-notice\" role=\"status\" aria-live=\"polite\" tabindex=\"-1\">Не удалось выполнить запрос.</div>",
+      "css": ".ds-error-notice{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#942721;background:#fff;border:1px solid var(--line,#b9cbd9);padding:1rem;border-radius:7px;margin-bottom:1rem;}.ds-error-notice:empty{display:none;}.ds-error-notice:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}"
+    },
+    {
+      "name": "Preliminary Estimate Receipt",
+      "kind": "custom",
+      "description": "Plain result on the workspace ground. The live renderer focuses the heading after a successful submission; the snippet represents that result without a submission handler. Manual-check results replace the heading and show reasons without amounts.",
+      "html": "<section class=\"ds-receipt\"><h1 tabindex=\"-1\">Предварительная оценка</h1><p>Номер запроса: SYNTHETIC-1</p><p>Количество: 1 шт.</p><p>Предварительный расчёт: 2800.00 KZT</p><p>1 × 2000 KZT = 2000.00 KZT; доставка: 800.00 KZT.</p><h2>По каким сведениям проверено</h2><p>SYN-1 · SYNTHETIC настольная лампа · Белая</p><p>Предварительно, без резерва товара и обещания доставки. Для уточнения передайте номер запроса сотруднику магазина отдельно.</p><button type=\"button\">Проверить ещё раз</button></section>",
+      "css": ".ds-receipt{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;background:#edf3f8;}.ds-receipt h1{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.15;letter-spacing:-0.025em;margin:0 0 0.8rem;}.ds-receipt h2{font-size:1.3rem;margin:2rem 0 0.75rem;}.ds-receipt p{max-width:72ch;line-height:1.6;margin:0.5rem 0 1rem;}.ds-receipt button{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:1rem;display:inline-block;min-height:44px;padding:0.65rem 1rem;cursor:pointer;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;text-decoration:none;background:#fff;color:var(--navy,#183e60);}.ds-receipt button:hover{filter:brightness(1.13);}.ds-receipt h1:focus-visible,.ds-receipt button:focus-visible{outline:3px solid #bd671a;outline-offset:3px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Startup Lab Operate",
+    "overview": "QorStock inherits the existing Startup Lab working-cabinet family. The interface presents a light workspace, a blue header and navigation, labelled forms, readable tables and a separate checking result. This document records the implementation in `public/styles.css`, `public/app.js` and `public/index.html`; it establishes no new visual world, approved composition or comparative quality ceiling.\n\nThe operating character is restrained and factual. Source names, requested quantity, freshness information and the saved result carry the visual hierarchy. A preliminary estimate and a request for manual checking remain visibly distinct through their headings and text, including the absence of amounts when checking is required. This is visual documentation of the bounded product in `PRODUCT.md`, not an external security or customer-readiness assessment.",
+    "keyCharacteristics": [
+      "Cool light ground with white, bordered working surfaces.",
+      "System sans typography and tabular numerals in data tables.",
+      "Teal primary actions, blue secondary actions and visible keyboard focus.",
+      "Textual outcomes with a readable source snapshot and explicit limitations."
+    ],
+    "rules": [
+      {
+        "name": "The Text Carries State Rule",
+        "body": "Keep outcome, archive and processing labels readable in text; the implementation does not rely on colored status chips.",
+        "section": "colors"
+      },
+      {
+        "name": "The Flat Workspace Rule",
+        "body": "Use borders and surface tone to group operating content; do not introduce an unapproved decorative material system.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the inherited Startup Lab Operate palette, platform typography, visible labels and flat table/form language.",
+      "**Do** keep preliminary amounts, requested quantity, source identity and freshness information in the reading order.",
+      "**Do** retain a total-free manual-check outcome and the explicit non-reservation, non-order and delivery-limit wording.",
+      "**Do** preserve keyboard focus, the notice region and horizontally scrollable tables with a narrow-screen hint.",
+      "**Do** distinguish current source names from saved snapshot names in every historical display."
+    ],
+    "donts": [
+      "**Don't** present an estimate or operator request as an order, reservation, payment, inventory deduction or promised delivery.",
+      "**Don't** replace explicit state labels with color-only signals or invented decorative metrics.",
+      "**Don't** use Pending Amber as the focus color; preserve the actual global focus treatment.",
+      "**Don't** add shadows, animated movement, new fonts or a new visual world without a separately authorized change.",
+      "**Don't** interpret the saved public mobile evidence or the scoped finish verdict as verification of every mobile journey, production security or customer readiness."
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+TAP version 13
+# Subtest: QorStock: complete original workflow, calculation and rejected invalid transition
+ok 1 - QorStock: complete original workflow, calculation and rejected invalid transition
+  ---
+  duration_ms: 6.032
+  type: 'test'
+  ...
+# Subtest: real file restart, optimistic conflict and validated restore into an empty database
+ok 2 - real file restart, optimistic conflict and validated restore into an empty database
+  ---
+  duration_ms: 5.722083
+  type: 'test'
+  ...
+# Subtest: HTTP prevents anonymous reads and cross-origin/CSRF writes while authenticated workflow saves
+ok 3 - HTTP prevents anonymous reads and cross-origin/CSRF writes while authenticated workflow saves
+  ---
+  duration_ms: 99.72675
+  type: 'test'
+  ...
+# Subtest: published public form saves a validated submission without exposing private workspace
+ok 4 - published public form saves a validated submission without exposing private workspace
+  ---
+  duration_ms: 6.891125
+  type: 'test'
+  ...
+# Subtest: two products on one host use isolated session cookies and preserve both logins
+ok 5 - two products on one host use isolated session cookies and preserve both logins
+  ---
+  duration_ms: 102.095083
+  type: 'test'
+  ...
+# Subtest: fresh stock and zone yield exact KZT total without reducing stock
+ok 6 - fresh stock and zone yield exact KZT total without reducing stock
+  ---
+  duration_ms: 2.91925
+  type: 'test'
+  ...
+# Subtest: insufficient stock creates operator request with no promised amount
+ok 7 - insufficient stock creates operator request with no promised amount
+  ---
+  duration_ms: 0.668542
+  type: 'test'
+  ...
+# Subtest: freshness expires exactly at boundary for stock and delivery independently
+ok 8 - freshness expires exactly at boundary for stock and delivery independently
+  ---
+  duration_ms: 1.395667
+  type: 'test'
+  ...
+# Subtest: below delivery minimum asks operator and never treats free delivery as missing
+ok 9 - below delivery minimum asks operator and never treats free delivery as missing
+  ---
+  duration_ms: 0.791042
+  type: 'test'
+  ...
+# Subtest: future check time and invalid quantity reject all data/audit changes
+ok 10 - future check time and invalid quantity reject all data/audit changes
+  ---
+  duration_ms: 0.802208
+  type: 'test'
+  ...
+# Subtest: price/stock/source edits and later expiry preserve exact historical snapshot
+ok 11 - price/stock/source edits and later expiry preserve exact historical snapshot
+  ---
+  duration_ms: 0.739833
+  type: 'test'
+  ...
+# Subtest: source links/quantity are immutable and archived sources close only new requests
+ok 12 - source links/quantity are immutable and archived sources close only new requests
+  ---
+  duration_ms: 1.675167
+  type: 'test'
+  ...
+# Subtest: restart and empty restore retain full historical evidence after expiry, reject tampered arithmetic
+ok 13 - restart and empty restore retain full historical evidence after expiry, reject tampered arithmetic
+  ---
+  duration_ms: 5.375708
+  type: 'test'
+  ...
+# Subtest: public HTTP computes from saved data, rejects archive/unknown zones and exposes no private workspace
+ok 14 - public HTTP computes from saved data, rejects archive/unknown zones and exposes no private workspace
+  ---
+  duration_ms: 38.813209
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 302.379625
